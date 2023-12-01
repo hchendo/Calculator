@@ -1,27 +1,25 @@
-
-
-def add(self, a, b):
+def add(numbers):
     """
     Returns the sum of a and b.
     """
-    return a + b
+    return numbers[0] + numbers[1]
 
-def subtract(self, a, b):
+def subtract(numbers):
     """
     Returns the difference of a and b.
     """
-    return a - b
+    return numbers[0] - numbers[1]
 
-def multiply(self, a, b):
+def multiply(numbers):
     """
     Returns the product of a and b.
     """
-    return a * b
+    return numbers[0] * numbers[1]
 
-def divide(self, a, b):
+def divide(numbers):
     """
     Returns the division of a by b.
     """
     if b == 0:
         raise ValueError("Cannot divide by zero.")
-    return a / b
+    return numbers[0] / numbers[1]
